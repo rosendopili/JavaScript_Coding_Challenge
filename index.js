@@ -14,8 +14,8 @@ function numSort(num){
 }
 
 console.log(numSort(21445));
-console.log(numSort(145263))
-console.log(numSort(123456789))
+console.log(numSort(145263));
+console.log(numSort(123456789));
 
 /*Given a string of words, return the length of the shortest word(s). The given data will always be a string and will never be empty.
 Examples:
