@@ -26,7 +26,7 @@ Input: 'Extraordinarily appetizing pineapple!': Output: 9 */
 function shortestLength(sentence) {
 
     let sortedSentence =
-      sentence.replace(/[!-@]/, '') //replaces all chars falling                             between !-@ with an empty space
+      sentence.replace(/[!-@]/, '') //replaces all chars falling between !-@ with an empty space
               .split(" ") //splits string into array of strings
               .sort(function(a, b){
                 return a.length - b.length}); //sort comparison function- sorts array of strings from shortest to longest length
@@ -38,8 +38,6 @@ function shortestLength(sentence) {
 console.log(shortestLength('Test, this is a test'));
 console.log(shortestLength('The dog\'s mother was happy'));
 console.log(shortestLength('Extraordinarily appetizing pineapple!'));
-
-// last test case returning 10. \! is being counted as part of word length
 
 /*Given a number return the sum of all the multiples of 3 or 5 below the given number.
 Examples:
